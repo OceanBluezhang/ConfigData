@@ -2,9 +2,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/,http://eureka-teritary:8013/eureka/
+---
+spring:
+  profiles: lucky-word
 wordConfig:
   preamble: the lukyword is 
-  luckyWord: Irish
+  luckyWord: get it.
 ---
 spring:
   profiles: subject
