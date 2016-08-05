@@ -9,7 +9,7 @@ wordConfig:
   preamble: the lukyword is 
   luckyWord: newone.
 refresh:
-  Lucky: some test.
+  Lucky: Another test key.
 ---
 spring:
   profiles: subject
